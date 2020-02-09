@@ -1,38 +1,59 @@
- 
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<div class="hero-image">
-  		<div class="hero-text">
-    			<h1>Fabiana Castiblanco</h1>
-    			<p>Data Analyst</p>
-		  </div>
-		  </div> 
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/hero.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-				<p>I am a Data Scientist passionate about uncovering insights from data in diverse scenarios.  
-			           I am absolutely convinced that technology can help to shape strategies for improving our world and data is the main ingredient for such transformation.
-					<a href="/about">Know more about me</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:fabi.cast@protonmail.com">fabi.cast@protonmail.com</a></li>
-        		<li><a href="https://github.com/fabi-cast">github.com/fabi-cast</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 'images/background.jpg';
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Fabiana Castiblanco</h1>
+    <p>Data Analyst</p>
+  </div>
+</div>
+
+<p>I am a Data Scientist passionate about uncovering insights from data in diverse scenarios.  I began a career in Data Science after completing my studies in Mathematics. I am absolutely convinced that technology can help to shape strategies for improving our world and data is the main ingredient for such transformation.
+My interests lie in Machine Learning methods and its potential applications to give insights towards a more sustainable planet. Also, I have interest in data visualization tools.</p>
+
+</body>
